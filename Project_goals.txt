@@ -1,0 +1,13 @@
+Assumptions:
+- data directory contains many files/directories
+- I am only wanting games contained in directory
+- each game is stored in directory containing word "game"
+- each game dir contains single .go file that must be compiled before running
+
+Project steps/reqs:
+- find all game dir from /data
+- create a new /games dir
+- copy and remove "game" suffix of all games into /games dir
+- create .json file w/ info about games
+- comple all game code 
+- run all game code
